@@ -1,4 +1,4 @@
-nname: QA Automation Tests
+name: QA Automation Tests
 
 on:
   push:
@@ -24,10 +24,7 @@ jobs:
     # INSTALAR CHROME
     - name: Setup Chrome
       uses: browser-actions/setup-chrome@v1
-      run: |
-        sudo apt update
-        sudo apt install -y google-chrome-stable
-
+      
     - name: Ejecutar tests
       run: |
-        pytest
+        pytest -v
