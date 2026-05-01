@@ -2,7 +2,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from utils.screenshot import take_screenshot
-from selenium.webdriver.chrome.options import options
+from selenium.webdriver.chrome.options import Options
 import pytest
 
 @pytest.fixture
