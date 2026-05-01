@@ -7,7 +7,7 @@ import pytest
 
 @pytest.fixture
 def driver():
-    options = options()
+    options = Options()
 
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
