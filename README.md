@@ -31,3 +31,4 @@ Cuando un test falla, se captura evidencia automáticamente.
 PowerShell
 pytest
 .. 
+..
